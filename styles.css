@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: red;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    position: right;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.home {
+    background-color: lightblue;
+    display: flex;
+     height: 520px; 
+    color: black;
+ /* min-height: 444px; */
+}
+
+.home .maxwidth{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text1{
+    font-size: 27px;
+}
+
+.home .home-content .text2{
+    font-size: 75px;
+}
+
+.home .home-content .text3{
+    font-size: 40px;
+}
+
+.jump {
+    /* content: ''; */
+    /* display: block; */
+    height:      70px;
+    margin-top: -70px;
+}
+
+.about .title{
+    /* padding: 50px 0; */
+    padding-top: 50px;
+    background-color: brown;
+    padding-top: 50;
+    text-align: center;
+}
+
+.about .about {
+    background-color: brown;
+    height: 444px;
+}
+
+.Projects {
+    background-color: blueviolet;
+    height: 444px;
+}
+
+
+
+
+
