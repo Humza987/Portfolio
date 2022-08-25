@@ -8,13 +8,12 @@
 }
 
 .max-width {
-    max-width: 1300px;
+    width: auto;
     padding: 0 40px;
-    margin: auto;
 }
 
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     padding: 15px 0;
     background: red;
@@ -28,7 +27,6 @@
 }
 
 .navbar .logo a{
-    position: right;
     color: white;
     font-size: 35px;
     font-weight: 600;
@@ -37,7 +35,7 @@
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-
+    margin: auto;
 }
 
 .navbar .menu li a{
@@ -49,14 +47,33 @@
 
 .home {
     background-color: lightblue;
-    display: flex;
      height: 520px; 
     color: black;
- /* min-height: 444px; */
+    width: auto;
+}
+
+.home-content{
+    width: 60%;
+     padding: 0 0px;
+
+}
+.home .home-content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .home .maxwidth{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    width: 100%;
     margin: auto 0 auto 40px;
+}
+
+.home .text{
+   
+    
 }
 
 .home .home-content .text1{
@@ -71,6 +88,11 @@
     font-size: 40px;
 }
 
+.home .home-content .text4{
+     justify-content: space-between;
+}
+
+
 .jump {
     /* content: ''; */
     /* display: block; */
@@ -80,7 +102,7 @@
 
 .about .title{
     /* padding: 50px 0; */
-    padding-top: 50px;
+    padding: 10px 10px ;
     background-color: brown;
     padding-top: 50;
     text-align: center;
@@ -89,11 +111,44 @@
 .about .about {
     background-color: brown;
     height: 444px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
 }
+
+.about .about .para pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about{
+    width: 100%;
+}
+
+
 
 .Projects {
     background-color: blueviolet;
     height: 444px;
+}
+
+.Projects .title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
+.Contact {
+    background-color: aqua;
+    height: 100px;
+}
+
+.Contact .title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 
