@@ -93,18 +93,12 @@
 }
 
 
-.jump {
-    /* content: ''; */
-    /* display: block; */
-    height:      70px;
-    margin-top: -70px;
-}
+
 
 .about .title{
     /* padding: 50px 0; */
     padding: 10px 10px ;
     background-color: brown;
-    padding-top: 50;
     text-align: center;
 }
 
@@ -132,9 +126,8 @@
     height: 444px;
 }
 
-.Projects .title{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.Projects .title {
+    padding: 10px 10px ;
   text-align: center;
 }
 
