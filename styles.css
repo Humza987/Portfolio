@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .max-width {
@@ -46,8 +47,8 @@
 }
 
 .home {
-    background-color: lightblue;
-     height: 520px; 
+    background-color: skyblue;
+     height: 444px; 
     color: black;
     width: auto;
 }
@@ -58,7 +59,7 @@
 
 }
 .home .home-content{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     justify-content: space-between;
 }
@@ -71,10 +72,6 @@
     margin: auto 0 auto 40px;
 }
 
-.home .text{
-   
-    
-}
 
 .home .home-content .text1{
     font-size: 27px;
@@ -93,8 +90,6 @@
 }
 
 
-
-
 .about .title{
     /* padding: 50px 0; */
     padding: 10px 10px ;
@@ -108,11 +103,13 @@
     display: flex;
     justify-content: space-between;
     gap:100px;
+    padding-left: 10px;
+
 
 }
 
 .about .about .para pre{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .about{
@@ -120,10 +117,11 @@
 }
 
 
+.Projects{
+    background-color: skyblue;
+    height: 200px;
+    padding-left: 10px;
 
-.Projects {
-    background-color: blueviolet;
-    height: 444px;
 }
 
 .Projects .title {
@@ -132,16 +130,26 @@
 }
 
 
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .Contact {
-    background-color: aqua;
+    background-color: lightcoral;
     height: 100px;
+
 }
 
 .Contact .title{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+
+.Contact .Contact{
+    padding-left: 10px;
 }
 
 
